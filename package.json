@@ -1,0 +1,29 @@
+{
+  "name": "news-backend",
+  "version": "1.0.0",
+  "description": "A backend for news website.",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [
+    "javascript",
+    "backend",
+    "news"
+  ],
+  "author": "Malaika Waris",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.14",
+    "prettier": "^3.8.1"
+  },
+  "dependencies": {
+    "cloudinary": "^2.9.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.0",
+    "express": "^5.2.1",
+    "franc": "^6.2.0",
+    "microsoft-cognitiveservices-speech-sdk": "^1.49.0"
+  }
+}
