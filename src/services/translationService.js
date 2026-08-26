@@ -42,7 +42,7 @@ export const translateText = async (text, targetLang) => {
     const userPrompt = `Translate the following text into ${targetLanguageName}:\n\n${text}`;
 
     const response = await groq.chat.completions.create({
-      model: "llama-3.3-70b-versatile",
+      model: "openai/gpt-oss-20b",
       messages: [
         {
           role: "system",

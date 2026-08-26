@@ -1,5 +1,5 @@
 // --- Model Settings ---
-export const MODEL_NAME = "llama-3.1-8b-instant";
+export const MODEL_NAME = "openai/gpt-oss-20b";
 export const DEFAULT_TEMPERATURE = 0.5;
 
 // --- Supported Options ---

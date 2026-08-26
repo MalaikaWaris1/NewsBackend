@@ -32,7 +32,7 @@ Text to summarize:
 "${text}"`;
 
     const response = await groq.chat.completions.create({
-      model: "mixtral-8x7b-32768",
+      model: "openai/gpt-oss-120b",
       messages: [
         {
           role: "system",
