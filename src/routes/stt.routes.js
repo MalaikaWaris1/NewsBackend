@@ -66,7 +66,7 @@ import { asyncHandler } from '../utills/asyncHandler.js';
 const router = express.Router();
 
 // Root directory se dynamic path set karein (Local & Render Dono ke liye)
-const tempAudioDir = path.join(process.cwd(), 'src', 'temp_audio');
+const tempAudioDir = path.join(process.cwd(), 'temp_audio');
 
 // Server start hote hi check karein ke folder hai ya nahi, na hone par auto-create karein
 if (!fs.existsSync(tempAudioDir)) {
